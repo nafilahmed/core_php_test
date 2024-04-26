@@ -15,4 +15,15 @@ Enter MYSQL server credentials in app/backend/auth/config.php
 
 ```sh
 You may need excute this query in dabase "SET GLOBAL sql_mode = 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';" to execute GROUP BY queries.
+
+Two users are seeded:
 ```
+### Admin:
+```sh
+email: admin@gmail.com 
+password: 123456 
+```
+### User:
+```sh
+email: user@gmail.com 
+password: 123456
